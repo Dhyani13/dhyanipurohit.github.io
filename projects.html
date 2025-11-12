@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Dhyani Purohit</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h3>MY PROJECTS</h3>
-    
+<button id="darkToggle" class="btn-toggle">Dark Mode</button>
+
+<div class="container">
+  <header>
+    <h1>Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+    </nav>
+  </header>
+
+  <section>
+    <!-- ==== REPEAT THIS BLOCK FOR EVERY PROJECT ==== -->
+    <div class="project">
+      <h3>Project Title (e.g., Smart Reminder Bot)</h3>
+      <p><strong>Problem:</strong> Students miss deadlines.</p>
+      <p><strong>Solution:</strong> Telegram bot with calendar sync – <em>80 % fewer missed tasks</em>.</p>
+      <p><strong>Tech:</strong> Python, Telebot, Google Calendar API</p>
+      <div class="links">
+        <a href="https://github.com/yourname/bot" target="_blank">Code</a>
+        <a href="https://t.me/yourbot" target="_blank">Live Demo</a>
+      </div>
+    </div>
+    <!-- ==== END BLOCK ==== -->
+
+    <!-- Add 2–4 more .project blocks here -->
+  </section>
+
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+  </footer>
+</div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
